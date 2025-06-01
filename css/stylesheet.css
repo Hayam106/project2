@@ -521,14 +521,13 @@ transition: 1s ease;
 /* //////////////////////////////////////////////////////////////end  sec 2/////////////////////////////////////////////////////////// */
 .hot-product{
     width: 95%;
-    height: 600px;
+    /* height: 600px; */
   margin:10% auto; 
   padding: 10px; 
   transform-style: preserve-3d;
   position: relative;
 }
 .item-product{
-       width: 100%;
 display: flex;  
   justify-content: space-between;
 align-items: baseline;
@@ -538,16 +537,16 @@ flex-direction: row;
     color: #252b2e;
     padding: 5px;
     font-size: 30px;
-margin-left: 10px;
+margin-left: 5px;
 font-family: 'Playfair Display', serif;
   letter-spacing: 1px;
 }
 .sec-velvy li{
     display: inline;
-    margin-right: 20px;
+    margin-right: 5px;
 }
 hr{
-    width: 97%;
+    width: 99%;
     height: 3px;
     margin:6px auto;
     background-color: #252b2e;
@@ -584,15 +583,14 @@ font-family: 'Playfair Display', serif;
     grid-template-columns: repeat(4 ,24%);
     height: 400px;
    grid-gap: 10px;
-   margin-top: 5%;
-   margin-left: 15px;
+   margin-top: 5% ;
+      justify-content: center;
    position: relative;
 }
 .arrow-left,
  .arrow-right {
     font-size: 20px;
   position: absolute;
-  top: 50%;
   transform: translateY(-40%);
   width: 30px;               
   height: 30px;             
@@ -610,10 +608,14 @@ font-family: 'Playfair Display', serif;
   color: azure;
 }
 .arrow-left {
-  left: -20px;   
+  left: -20px; 
+    top: 59%;
+  
 }
 .arrow-right {
-  right: -20px;  
+  right: -30px; 
+    top: 47%;
+ 
 }
 .i-trend{
     padding: 5px;
@@ -784,8 +786,8 @@ z-index: 5;
     position: absolute;
     top: 50%;
    left: 10%;
-    font-size: 30px;
-    color:#696969;
+    font-size: 25px;
+    color:#989797;
     cursor:pointer;
     z-index: 2;
   }
@@ -793,8 +795,8 @@ z-index: 5;
      position: absolute;
      top: 50%;
      right:10%;
-     font-size: 30px;
-     color:#696969;
+     font-size: 25px;
+     color:#989797;
      cursor:pointer;
      z-index: 2;
   }
@@ -820,7 +822,7 @@ z-index: 5;
 .line3{
     width:530px;
     height: 2px;
-    background-color: #6b6c6d;
+    background-color: #282A35;
     position: absolute;
     top: 8%;
     left: 0%;
@@ -829,7 +831,7 @@ z-index: 5;
 right: 0%;
 width:530px;
 height: 2px;
-background-color: #6b6c6d;
+background-color: #282A35;
 position: absolute;
 top: 8%;
 }
@@ -1043,7 +1045,7 @@ transform-style: preserve-3d;
 .line1{
     width:550px;
     height: 2px;
-    background-color: #6b6c6d;
+    background-color: #282A35;
     position: absolute;
     top: 50%;
     left: 0%;
@@ -1052,7 +1054,7 @@ transform-style: preserve-3d;
 right: 0%;
 width:550px;
 height: 2px;
-background-color: #6b6c6d;
+background-color: #282A35;
 position: absolute;
 top: 50%;
 }
